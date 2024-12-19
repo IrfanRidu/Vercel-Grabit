@@ -1,16 +1,8 @@
 {
-    "version" : 2,
-    "name" : "Grabit",
-    "builds" : [
-        {
-            "src" : "./index.js",
-            "use" : "@vercel/node"
-        }
-    ],
-    "routes" : [
-        {
-            "src" : "/(.*)",
-            "dest" : "/"
-        }
-    ]
-} 
+    "version": 2,
+    "functions": {
+      "api/*.js": {
+        "runtime": "nodejs16.x"
+      }
+    }
+  }
