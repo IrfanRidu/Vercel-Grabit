@@ -1,6 +1,6 @@
 {
     "version" : 2,
-    "name" : "Blinkit",
+    "name" : "Grabit",
     "builds" : [
         {
             "src" : "./index.js",
