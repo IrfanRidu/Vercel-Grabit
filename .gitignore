@@ -26,8 +26,8 @@ dist-ssr
 
 #manual
 
-# client/node_modules
-# server/node_modules
-# .env
-# client/.env
-# server/.env
+client/node_modules
+server/node_modules
+.env
+client/.env
+server/.env
